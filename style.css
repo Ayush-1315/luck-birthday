@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital@1&display=swap');
+*{
+margin:0;
+padding:0;
+box-sizing: border-box;
+}
+.container{
+    height:100vh;
+    width: 100vw;
+    padding:3rem;
+    font-family: 'Merriweather', serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.content{
+    text-align: center;
+    width: 40%;
+    margin: 3rem auto;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 5px 5px 15px 4px #ede2e2, -5px -5px 15px 4px #817474;
+    border-radius: 1rem;
+    font-family: "Merriweather", serif;
+}
+input,button{
+    display: block;
+    width: 50%;
+    height: 2rem;
+    border-radius: 0.5rem;
+    margin: 1rem;
+    border: 1px solid #ede2e2;
+    padding: 0.5rem;
+}
+.dob{
+    width:100%;
+}
+select{
+    width:28%;
+    height: 2.5rem;
+    border-radius: 0.5rem;
+    margin: 0.5rem;
+    border: 1px solid #ede2e2;
+    padding: 0.5rem;
+    font-family: 'Merriweather', serif;
+}
+#answer{
+    margin: 1rem;
+    box-shadow: 5px 5px 15px 4px #ede2e2, -5px -5px 15px 4px #817474;
+    width: 60%;
+    height: 3rem;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    font-family: "Merriweather", serif;
+}
+h1 {
+    margin-bottom: 1rem;
+}
+button{
+    background-color: chocolate;
+    color: white;
+    cursor:pointer;
+}
+#react{
+    display: inline-block;
+    background-color: #3b82f6;
+    color:white;
+    text-decoration: none;
+    padding:0.5rem;
+    border-radius: 0.5rem;
+}
+footer{
+    text-align: center;
+}
